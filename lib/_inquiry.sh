@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do Zap+ que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do ZapMais que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -43,7 +43,7 @@ get_max_user() {
 get_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o domínio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT} (lembre-se de colocar o https://)"
   printf "\n\n"
   read -p "> " frontend_url
 }
@@ -51,7 +51,7 @@ get_frontend_url() {
 get_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o domínio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT} (lembre-se de colocar o https://)"
   printf "\n\n"
   read -p "> " backend_url
 }
