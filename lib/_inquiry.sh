@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Zap+, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador ZapMais, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar Zap+\n"
-  printf "   [1] Atualizar Zap+\n"
-  printf "   [2] Deletar Zap+\n"
-  printf "   [3] Bloquear Zap+\n"
-  printf "   [4] Desbloquear Zap+\n"
-  printf "   [5] Alter. dominio Zap+\n"
+  printf "   [0] Instalar ZapMais\n"
+  printf "   [1] Atualizar ZapMais\n"
+  printf "   [2] Deletar ZapMais\n"
+  printf "   [3] Bloquear ZapMais\n"
+  printf "   [4] Desbloquear ZapMais\n"
+  printf "   [5] Alter. dominio ZapMais\n"
   printf "\n"
   read -p "> " option
 
